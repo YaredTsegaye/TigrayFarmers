@@ -230,19 +230,19 @@ function Home() {
                 <div className="donate-img position-relative">
                   <a href="donation-details.html">
                     {" "}
-                    <img className="w-100" src="./src/assets/images/gallery/donate-1.png" alt="img" />{" "}
+                    <img className="w-100" src="./src/assets/images/gallery/Empower.png" alt="img" />{" "}
                   </a>
                   <div className="donate-badge">
-                    <p className="subtitle">Food</p>
+                    <p className="subtitle">Empower</p>
                   </div>
                 </div>
                 <div className="donate-info">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="donate-info-title">
                       <h4 className="title text-capitalize">
-                        <a href="blog-details.html">We assure you that your donation will be used wisely.</a>
+                        <a href="blog-details.html">Help Tigray Farmers Rebuild Their Lives</a>
                       </h4>
-                      <p className="subtitle">We understand that there are many people organization The seeking support,</p>
+                      <p className="subtitle">Donate today to empower farmers in Tigray with vital tools and resources.</p>
                       {/* <div className="progress custom-progress-two">
                       <div className="progress-bar" style="width: 25%"></div>
                     </div> */}
@@ -277,16 +277,16 @@ function Home() {
                     <img className="w-100" src="./src/assets/images/gallery/donate-2.png" alt="img" />{" "}
                   </a>
                   <div className="donate-badge">
-                    <p className="subtitle">Education</p>
+                    <p className="subtitle">Crisis</p>
                   </div>
                 </div>
                 <div className="donate-info">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="donate-info-title">
                       <h4 className="title text-capitalize">
-                        <a href="donation-details.html">We assure you that your donation will be used wisely.</a>
+                        <a href="donation-details.html">War and Famine Devastate Tigray.</a>
                       </h4>
-                      <p className="subtitle">We understand that there are many people organization The seeking support,</p>
+                      <p className="subtitle">Millions face starvation due to conflict and lack of farming resources.</p>
                       {/* <div className="progress custom-progress-two">
                       <div className="progress-bar" style="width: 65%"></div>
                     </div> */}
@@ -318,19 +318,19 @@ function Home() {
                 <div className="donate-img position-relative">
                   <a href="donation-details.html">
                     {" "}
-                    <img className="w-100" src="./src/assets/images/gallery/donate-1.png" alt="img" />{" "}
+                    <img className="w-100" src="./src/assets/images/gallery/Transform.png" alt="img" />{" "}
                   </a>
                   <div className="donate-badge">
-                    <p className="subtitle">medical</p>
+                    <p className="subtitle">Transform</p>
                   </div>
                 </div>
                 <div className="donate-info">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="donate-info-title">
                       <h4 className="title text-capitalize">
-                        <a href="donation-details.html">We assure you that your donation will be used wisely.</a>
+                        <a href="donation-details.html">Break the Cycle of Hunger in Tigray</a>
                       </h4>
-                      <p className="subtitle">We understand that there are many people organization The seeking support,</p>
+                      <p className="subtitle">Your support will provide seeds, tools, and agricultural training.</p>
                       {/* <div className="progress custom-progress-two">
                       <div className="progress-bar" style="width: 85%"></div>
                     </div> */}
@@ -363,7 +363,7 @@ function Home() {
       {/* End-of Donate */}
 
       {/* Testimonial S t a r t*/}
-      <div className="testimonial-section-two">
+      <div className="testimonial-section-two" hidden={true}>
         <div className="container">
           <div className="row justify-content-start">
             <div className="col-xl-7">
@@ -507,7 +507,7 @@ function Home() {
       {/* End-of Testimonial */}
 
       {/* Blog S t a r t */}
-      <div className="blog-section-two section-padding2">
+      <div className="blog-section-two section-padding2" hidden={true}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
@@ -648,7 +648,7 @@ function Home() {
       {/* End-of Blog */}
 
       {/* Popular brand S t a r t */}
-      <div className="popular-brand-section bottom-padding">
+      <div className="popular-brand-section bottom-padding" hidden={true}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -690,7 +690,7 @@ function Home() {
                     {/* Logo*/}
                     <div className="logo">
                       <a href="index.html">
-                        <img src="./src/assets/images/logo/dark.png" alt="logo" />
+                        <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
                       </a>
                     </div>
                   </div>
