@@ -100,14 +100,13 @@ function Home() {
               <div className="col-xxl-6 col-xl-6 col-lg-6 my-auto">
                 <div className="hero-caption-one mb-20">
                   <h4 className="key-title font-700 mb-20 wow fadeInUp" data-wow-delay="0.0s">
-                    Speak Hope for the Homeless
+                    Help Tigrayan Farmers Rebuild Their Lives
                   </h4>
                   <h1 className="title font-700 wow fadeInUp" data-wow-delay="0.1s">
-                    Donate to children & senior citizens
+                  Sow Seeds of Hope: Rebuild Tigray Together!
                   </h1>
                   <p className="pera wow fadeInUp" data-wow-delay="0.3s">
-                    Involves donating one's body after death for medical research, education, or anatomical dissection. Body donation plays
-                    a crucial role in advancing medical science
+                  Join us in nurturing the future of Tigray—donate now to help our farmers flourish anew
                   </p>
                   <div className="d-flex gap-20 flex-wrap">
                     <a href="donation.html" className="btn-primary-fill hero-btn wow fadeInLeft" data-wow-delay="0.4s">
@@ -123,7 +122,7 @@ function Home() {
                 <div className="d-flex gap-44">
                   <div className="hero-image position-relative d-none d-lg-block">
                     <img
-                      src="./src/assets/images/hero/hero-6.png"
+                      src="./src/assets/images/hero/farmer.png"
                       alt="img"
                       className="w-100 tilt-effect wow fadeInUp"
                       data-wow-delay="0.1s"
@@ -170,8 +169,8 @@ function Home() {
                   <i className="ri-shake-hands-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Support</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Equip</h4>
+                  <p className="caption-para">Provide essential farming tools and equipment (plows, seeds, fertilizer, etc.)</p>
                 </div>
               </div>
             </div>
@@ -181,8 +180,8 @@ function Home() {
                   <i className="ri-graduation-cap-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Education</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Revitalize</h4>
+                  <p className="caption-para">Rebuild vital infrastructure, like irrigation systems and grain mills.</p>
                 </div>
               </div>
             </div>
@@ -192,8 +191,8 @@ function Home() {
                   <i className="ri-user-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Volunteers</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Innovate</h4>
+                  <p className="caption-para">Introduce modern agricultural techniques to increase yields and resilience.</p>
                 </div>
               </div>
             </div>
@@ -203,8 +202,8 @@ function Home() {
                   <i className="ri-money-dollar-circle-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Donations</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Harmonize</h4>
+                  <p className="caption-para">Collaborate with local communities to prioritize their immediate and long-term needs.</p>
                 </div>
               </div>
             </div>
