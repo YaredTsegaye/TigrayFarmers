@@ -128,7 +128,7 @@ function Home() {
                       data-wow-delay="0.1s"
                     />
                   </div>
-                  {/* <div className="hero-count-section flex flex-column gap-60">
+                 <div className="hero-count-section flex flex-column gap-60" hidden={true}>
                   <div className="hero-count wow fadeInUp" data-wow-delay="0.0s">
                     <h4 className="title">12+</h4>
                     <p className="pera">
@@ -150,7 +150,7 @@ function Home() {
                       Offices
                     </p>
                   </div>
-                </div> */}
+                </div>
                 </div>
               </div>
             </div>
