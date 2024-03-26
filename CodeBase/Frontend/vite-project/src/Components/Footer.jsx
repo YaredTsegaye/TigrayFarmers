@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,9 +11,9 @@ function Footer() {
               <div className="header-left d-flex align-items-center justify-content-between">
                 {/* Logo*/}
                 <div className="logo">
-                  <a href="index.html">
+                  <NavLink to="index.html">
                     <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
-                  </a>
+                  </NavLink>
                 </div>
               </div>
               {/* Footer-menu */}
@@ -20,29 +21,29 @@ function Footer() {
                 <nav>
                   <ul className="listing" id="navigation2">
                     <li className="single-list">
-                      <a href="index.html" className="single">
+                      <NavLink to="index.html" className="single">
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="single-list">
-                      <a href="donation.html" className="single">
+                      <NavLink to="donation.html" className="single">
                         Donation
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="single-list">
-                      <a href="about.html" className="single">
+                      <NavLink to="about.html" className="single">
                         About
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="single-list">
-                      <a href="blog.html" className="single">
+                      <NavLink to="blog.html" className="single">
                         Blog
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="single-list">
-                      <a href="contact-us.html" className="single">
+                      <NavLink to="contact-us.html" className="single">
                         Contact Us
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>
@@ -50,9 +51,9 @@ function Footer() {
               {/* Right button */}
               <ul className="cart">
                 <li className="cart-list">
-                  <a href="donate-payment.html" className="donate-btn">
+                  <NavLink to="donate-payment.html" className="donate-btn">
                     Donate
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -65,29 +66,29 @@ function Footer() {
               <h4 className="title">Explore Links</h4>
               <ul className="imp-link">
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     About Company
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Latest Projects
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Latest Blog
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Our Testimonials
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Our Mission
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -97,25 +98,25 @@ function Footer() {
               <h4 className="title">Get Support</h4>
               <ul className="imp-link">
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     About
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     How it Works
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Success Stories
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="single-list">
-                  <a className="single" href="javascript:void(0)">
+                  <NavLink className="single" to="javascript:void(0)">
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -130,9 +131,9 @@ function Footer() {
                     <div className="imp-icon">
                       <i className="ri-mail-fill"></i>
                     </div>
-                    <a className="single" href="javascript:void(0)">
+                    <NavLink className="single" to="javascript:void(0)">
                       donation@gmail.com
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
                 <li className="single-list">
@@ -140,9 +141,9 @@ function Footer() {
                     <div className="imp-icon">
                       <i className="ri-phone-fill"></i>
                     </div>
-                    <a className="single" href="javascript:void(0)">
+                    <NavLink className="single" to="javascript:void(0)">
                       (+88) 111-222-333
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
                 <li className="single-list">
@@ -150,9 +151,9 @@ function Footer() {
                     <div className="imp-icon">
                       <i className="ri-map-pin-2-fill"></i>
                     </div>
-                    <a className="single" href="javascript:void(0)">
+                    <NavLink className="single" to="javascript:void(0)">
                       Tropical Cyclone, Volcano
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
               </ul>
@@ -165,15 +166,15 @@ function Footer() {
                 <li className="single-list">
                   <div className="d-flex gap-20 mb-20 align-items-center">
                     <div className="project-img">
-                      <a href="donation-details.html">
+                      <NavLink to="donation-details.html">
                         <img src="./src/assets/images/gallery/project-1.png" alt="image" />
-                      </a>
+                      </NavLink>
                     </div>
 
                     <div className="project-info">
                       <p className="project-date">12.Oct.2023</p>
                       <h4 className="project-title">
-                        <a href="donation-details.html">18 Best Charity Marketing Champions</a>
+                        <NavLink to="donation-details.html">18 Best Charity Marketing Champions</NavLink>
                       </h4>
                     </div>
                   </div>
@@ -181,14 +182,14 @@ function Footer() {
                 <li className="single-list">
                   <div className="d-flex gap-20">
                     <div className="project-img">
-                      <a href="donation-details.html">
+                      <NavLink to="donation-details.html">
                         <img src="./src/assets/images/gallery/project-2.png" alt="image" />
-                      </a>
+                      </NavLink>
                     </div>
                     <div className="project-info">
                       <p className="project-date">20.Oct.2024</p>
                       <h4 className="project-title">
-                        <a href="donation-details.html">Charity starts from home. You Can't Even Help,</a>
+                        <NavLink to="donation-details.html">Charity starts from home. You Can't Even Help,</NavLink>
                       </h4>
                     </div>
                   </div>
@@ -210,24 +211,24 @@ function Footer() {
                   <div className="footer-social-link">
                     <ul className="listing">
                       <li className="single-list">
-                        <a className="single" href="">
+                        <NavLink className="single" to="">
                           <i className="ri-facebook-fill"></i>
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="single-list">
-                        <a className="single" href="">
+                        <NavLink className="single" to="">
                           <i className="ri-youtube-fill"></i>
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="single-list">
-                        <a className="single" href="">
+                        <NavLink className="single" to="">
                           <i className="ri-instagram-line"></i>
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="single-list">
-                        <a className="single" href="">
+                        <NavLink className="single" to="">
                           <i className="ri-linkedin-fill"></i>
-                        </a>
+                        </NavLink>
                       </li>
                     </ul>
                   </div>
