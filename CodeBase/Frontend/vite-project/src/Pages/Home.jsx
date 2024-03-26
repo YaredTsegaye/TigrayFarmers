@@ -3,95 +3,6 @@ import React from "react";
 function Home() {
   return (
     <>
-      {/* header */}
-      <div className="header-area">
-        <div className="main-header header-sticky">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="menu-wrapper d-flex align-items-center justify-content-between">
-                  <div className="header-left d-flex align-items-center justify-content-between">
-                    {/* Logo*/}
-                    <div className="logo logo-large light-logo">
-                      <a href="home.html">
-                        <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
-                      </a>
-                    </div>
-                    {/* Logo Mobile*/}
-                    <div className="logo logo-mobile light-logo">
-                      <a href="home.html">
-                        <img src="./src/assets/images/icon/favicon.png" alt="img" />
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="search-container">
-                    <input type="text" id="searchField" className="search-field" placeholder="Search..." />
-                    <button id="closeSearch" className="close-search-btn">
-                      <i className="ri-close-line"></i>
-                    </button>
-                  </div>
-
-                  {/* Main-menu for desktop */}
-                  <div className="main-menu d-none d-lg-block">
-                    <nav>
-                      <ul className="listing" id="navigation">
-                        <li className="single-list">
-                          <a href="home.html" className="single active">
-                            Home
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="about.html" className="single">
-                            About us
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="project.html" className="single">
-                            Project
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="donation.html" className="single">
-                            Donation
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="contact-us.html" className="single">
-                            Blog
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="Register.html" className="single">
-                            Conatc us
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-
-                  <div className="header-right">
-                    <div className="cart">
-                      {/* search button */}
-                      <a href="javascript:void(0)" className="rounded-btn search-bar">
-                        <i className="ri-search-line"></i>
-                      </a>
-                      <a href="login.html" className="btn-primary-fill pill-btn">
-                        Log in
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                {/* Mobile Menu */}
-                <div className="div">
-                  <div className="mobile_menu d-block d-lg-none"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Hero area S t a r t*/}
       <div className="hero-area">
         <div className="single-slider hero-padding">
@@ -103,10 +14,10 @@ function Home() {
                     Help Tigrayan Farmers Rebuild Their Lives
                   </h4>
                   <h1 className="title font-700 wow fadeInUp" data-wow-delay="0.1s">
-                  Sow Seeds of Hope: Rebuild Tigray Together!
+                    Sow Seeds of Hope: Rebuild Tigray Together!
                   </h1>
                   <p className="pera wow fadeInUp" data-wow-delay="0.3s">
-                  Join us in nurturing the future of Tigray—donate now to help our farmers flourish anew
+                    Join us in nurturing the future of Tigray—donate now to help our farmers flourish anew
                   </p>
                   <div className="d-flex gap-20 flex-wrap">
                     <a href="donation.html" className="btn-primary-fill hero-btn wow fadeInLeft" data-wow-delay="0.4s">
@@ -128,29 +39,29 @@ function Home() {
                       data-wow-delay="0.1s"
                     />
                   </div>
-                 <div className="hero-count-section flex flex-column gap-60" hidden={true}>
-                  <div className="hero-count wow fadeInUp" data-wow-delay="0.0s">
-                    <h4 className="title">12+</h4>
-                    <p className="pera">
-                      Years of <br/>
-                      Experience
-                    </p>
+                  <div className="hero-count-section flex flex-column gap-60" hidden={true}>
+                    <div className="hero-count wow fadeInUp" data-wow-delay="0.0s">
+                      <h4 className="title">12+</h4>
+                      <p className="pera">
+                        Years of <br />
+                        Experience
+                      </p>
+                    </div>
+                    <div className="hero-count wow fadeInUp" data-wow-delay="0.2s">
+                      <h4 className="title">140+</h4>
+                      <p className="pera">
+                        Thousands <br />
+                        volunteers
+                      </p>
+                    </div>
+                    <div className="hero-count  wow fadeInUp" data-wow-delay="0.3s">
+                      <h4 className="title">500+</h4>
+                      <p className="pera">
+                        Worid wide <br />
+                        Offices
+                      </p>
+                    </div>
                   </div>
-                  <div className="hero-count wow fadeInUp" data-wow-delay="0.2s">
-                    <h4 className="title">140+</h4>
-                    <p className="pera">
-                      Thousands <br/>
-                      volunteers
-                    </p>
-                  </div>
-                  <div className="hero-count  wow fadeInUp" data-wow-delay="0.3s">
-                    <h4 className="title">500+</h4>
-                    <p className="pera">
-                      Worid wide <br/>
-                      Offices
-                    </p>
-                  </div>
-                </div>
                 </div>
               </div>
             </div>
@@ -679,245 +590,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <footer>
-        <div className="footer-wrapper footer-bg-one">
-          <div className="container">
-            <div className="footer-menu">
-              <div className="col-lg-12">
-                <div className="menu-wrapper d-flex align-items-center justify-content-between">
-                  <div className="header-left d-flex align-items-center justify-content-between">
-                    {/* Logo*/}
-                    <div className="logo">
-                      <a href="index.html">
-                        <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
-                      </a>
-                    </div>
-                  </div>
-                  {/* Footer-menu */}
-                  <div className="main-menu d-none d-lg-block">
-                    <nav>
-                      <ul className="listing" id="navigation2">
-                        <li className="single-list">
-                          <a href="index.html" className="single">
-                            Home
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="donation.html" className="single">
-                            Donation
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="about.html" className="single">
-                            About
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="blog.html" className="single">
-                            Blog
-                          </a>
-                        </li>
-                        <li className="single-list">
-                          <a href="contact-us.html" className="single">
-                            Contact Us
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                  {/* Right button */}
-                  <ul className="cart">
-                    <li className="cart-list">
-                      <a href="donate-payment.html" className="donate-btn">
-                        Donate
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <hr className="footer-line" />
-            <div className="footer-imp-link row g-4 justify-content-between">
-              <div className="col-xl-2 col-lg-6">
-                <div className="footer-link">
-                  <h4 className="title">Explore Links</h4>
-                  <ul className="imp-link">
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        About Company
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Latest Projects
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Latest Blog
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Our Testimonials
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Our Mission
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-2 col-lg-6">
-                <div className="footer-link">
-                  <h4 className="title">Get Support</h4>
-                  <ul className="imp-link">
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        About
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        How it Works
-                      </a>
-                    </li>
-
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Success Stories
-                      </a>
-                    </li>
-                    <li className="single-list">
-                      <a className="single" href="javascript:void(0)">
-                        Contact
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-5">
-                <div className="footer-link">
-                  <br />
-                  <br />
-                  <ul className="imp-link">
-                    <li className="single-list">
-                      <div className="d-flex align-items-center gap-10 mb-20">
-                        <div className="imp-icon">
-                          <i className="ri-mail-fill"></i>
-                        </div>
-                        <a className="single" href="javascript:void(0)">
-                          donation@gmail.com
-                        </a>
-                      </div>
-                    </li>
-                    <li className="single-list">
-                      <div className="d-flex align-items-center gap-10 mb-20">
-                        <div className="imp-icon">
-                          <i className="ri-phone-fill"></i>
-                        </div>
-                        <a className="single" href="javascript:void(0)">
-                          (+88) 111-222-333
-                        </a>
-                      </div>
-                    </li>
-                    <li className="single-list">
-                      <div className="d-flex align-items-center gap-10 mb-20">
-                        <div className="imp-icon">
-                          <i className="ri-map-pin-2-fill"></i>
-                        </div>
-                        <a className="single" href="javascript:void(0)">
-                          Tropical Cyclone, Volcano
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-6">
-                <div className="footer-link">
-                  <h4 className="title">Projects</h4>
-                  <ul className="imp-link">
-                    <li className="single-list">
-                      <div className="d-flex gap-20 mb-20 align-items-center">
-                        <div className="project-img">
-                          <a href="donation-details.html">
-                            <img src="./src/assets/images/gallery/project-1.png" alt="image" />
-                          </a>
-                        </div>
-
-                        <div className="project-info">
-                          <p className="project-date">12.Oct.2023</p>
-                          <h4 className="project-title">
-                            <a href="donation-details.html">18 Best Charity Marketing Champions</a>
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="single-list">
-                      <div className="d-flex gap-20">
-                        <div className="project-img">
-                          <a href="donation-details.html">
-                            <img src="./src/assets/images/gallery/project-2.png" alt="image" />
-                          </a>
-                        </div>
-                        <div className="project-info">
-                          <p className="project-date">20.Oct.2024</p>
-                          <h4 className="project-title">
-                            <a href="donation-details.html">Charity starts from home. You Can't Even Help,</a>
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <hr className="footer-line" />
-          </div>
-          {/* footer-bottom area */}
-          <div className="footer-bottom-area">
-            <div className="container">
-              <div className="footer-border">
-                <div className="row">
-                  <div className="col-xl-12">
-                    <div className="footer-copy-right text-center">
-                      <p className="pera">Copyright © 2024. All rights reserved.</p>
-                      <div className="footer-social-link">
-                        <ul className="listing">
-                          <li className="single-list">
-                            <a className="single" href="">
-                              <i className="ri-facebook-fill"></i>
-                            </a>
-                          </li>
-                          <li className="single-list">
-                            <a className="single" href="">
-                              <i className="ri-youtube-fill"></i>
-                            </a>
-                          </li>
-                          <li className="single-list">
-                            <a className="single" href="">
-                              <i className="ri-instagram-line"></i>
-                            </a>
-                          </li>
-                          <li className="single-list">
-                            <a className="single" href="">
-                              <i className="ri-linkedin-fill"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }
