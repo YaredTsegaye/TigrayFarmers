@@ -13,7 +13,7 @@ function Header() {
                   {/* Logo*/}
                   <div className="logo logo-large light-logo">
                     <NavLink to="/">
-                      <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
+                      <img src="./src/assets/images/logo/logomain.png" alt="logo" />
                     </NavLink>
                   </div>
                   {/* Logo Mobile*/}

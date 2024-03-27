@@ -129,8 +129,8 @@ function Home() {
           <div className="row justify-content-center">
             <div className="col-xl-7">
               {/* Section Tittle */}
-              <div className="section-tittle text-center mb-50">
-                <span className="sub-tittle text-capitalize font-600">We Love To Help Poor</span>
+              <div className="section-tittle text-center mb-50" >  
+                <span className="sub-tittle text-capitalize font-600">Support & Make a Difference in Lives</span>
                 <h2 className="title font-700">Help & Donate Us Now</h2>
               </div>
             </div>
@@ -185,7 +185,7 @@ function Home() {
                 <div className="donate-img position-relative">
                   <a href="donation-details.html">
                     {" "}
-                    <img className="w-100" src="./src/assets/images/gallery/donate-2.png" alt="img" />{" "}
+                    <img className="w-100" src="./src/assets/images/gallery/crisis.png" alt="img" />{" "}
                   </a>
                   <div className="donate-badge">
                     <p className="subtitle">Crisis</p>
@@ -229,7 +229,7 @@ function Home() {
                 <div className="donate-img position-relative">
                   <a href="donation-details.html">
                     {" "}
-                    <img className="w-100" src="./src/assets/images/gallery/Transform.png" alt="img" />{" "}
+                    <img className="w-100" src="./src/assets/images/gallery/cycleofhunger.png" alt="img" />{" "}
                   </a>
                   <div className="donate-badge">
                     <p className="subtitle">Transform</p>

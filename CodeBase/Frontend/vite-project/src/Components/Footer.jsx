@@ -12,7 +12,7 @@ function Footer() {
                 {/* Logo*/}
                 <div className="logo">
                   <NavLink to="index.html">
-                    <img src="./src/assets/images/logo/Logo-charitfix.png" alt="logo" />
+                    <img src="./src/assets/images/logo/logomain.png" alt="logo" />
                   </NavLink>
                 </div>
               </div>
