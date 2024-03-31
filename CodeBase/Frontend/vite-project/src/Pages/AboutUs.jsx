@@ -39,8 +39,8 @@ function AboutUs() {
                   <i className="ri-hand-coin-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Medical & Blood</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Agricultural Productivity Boost</h4>
+                  <p className="caption-para">Boosting Tigray's agricultural productivity by modernizing farming methods, introducing high-yield crops, and promoting sustainable practices for a greener future.</p>
                   <a href="javascript:void(0)" className="imp-link">
                     Read More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -56,8 +56,8 @@ function AboutUs() {
                   <i className="ri-24-hours-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Social Service</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Water Access Initiative</h4>
+                  <p className="caption-para">Revitalizing farming in Tigray by enhancing irrigation systems, promoting efficient water use, and fostering community-wide water conservation for sustainable agriculture</p>
                   <a href="javascript:void(0)" className="imp-link">
                     Read More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -73,8 +73,8 @@ function AboutUs() {
                   <i className="ri-exchange-dollar-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Send a Charitable</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Equipment Upgrade Program</h4>
+                  <p className="caption-para">Boosting farm efficiency in Tigray through subsidies for modern machinery and implementing equipment sharing among small-scale farmers for improved productivity.</p>
                   <a href="javascript:void(0)" className="imp-link">
                     Read More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -90,8 +90,8 @@ function AboutUs() {
                   <i className="ri-book-open-line"></i>
                 </div>
                 <div className="helpful-card-caption">
-                  <h4 className="caption-title">Education</h4>
-                  <p className="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 className="caption-title">Farmer Skill Enhancement</h4>
+                  <p className="caption-para">Advancing Tigray's agriculture by equipping farmers with modern, sustainable farming techniques through expert-led training programs and hands-on learning at demo farms.</p>
                   <a href="javascript:void(0)" className="imp-link">
                     Read More <i className="ri-arrow-right-up-line"></i>
                   </a>
@@ -114,10 +114,9 @@ function AboutUs() {
               {/* Section Tittle */}
               <div className="section-tittle mb-35">
                 <span className="sub-tittle text-capitalize font-600">About us</span>
-                <h2 className="title font-700 pb-15">We Are Best Treatment For Our Hospita</h2>
+                <h2 className="title font-700 pb-15">Empowering the Farmers Inc</h2>
                 <p className="pera-subtitle mb-15">
-                  When deciding which charity to donate to, it's important to do your e search and find one that aligns with your values and
-                  interests. Look for charities that are transparent preventable diseases,
+                Welcome to Empowering the Farmers Inc., where our mission is to rejuvenate and transform agriculture in the Tigray region of Ethiopia. In the wake of devastation wrought by recent conflicts, our nonprofit stands as a beacon of hope and support for local farmers who are the backbone of their communities and the economy. With your help, we are making strides towards a future where agriculture in Tigray not only recovers but flourishes with strength, wealth, and sustainability.
                 </p>
                 <p className="pera-subtitle">
                   When deciding which charity to donate to, it's important to do your e search and find one that aligns with your values and
@@ -132,8 +131,8 @@ function AboutUs() {
                         <i className="ri-hand-heart-line"></i>
                       </div>
                       <div className="info-content">
-                        <h4 className="title">Donation</h4>
-                        <p className="pera">Fund programs that help children escape poverty providing vocational training.</p>
+                        <h4 className="title">Our Vision</h4>
+                        <p className="pera">At Empowering the Farmers Inc., we envision a Tigray where every farmer has access to the tools, technology, and resources needed to thrive. Our goal is to replace labor-intensive traditional farming methods with modern, sustainable, and efficient agricultural practices. By doing so, we aim to secure not just the livelihoods of individual farmers but also ensure food security and resilience against economic and environmental challenges for the entire region.</p>
                       </div>
                     </div>
                   </div>
@@ -144,12 +143,37 @@ function AboutUs() {
                       </div>
 
                       <div className="info-content">
-                        <h4 className="title">Volunteer</h4>
-                        <p className="pera">Fund programs that help children escape poverty providing vocational training.</p>
+                        <h4 className="title">How We Help</h4>
+                        <p className="pera">Thanks to the generous support of donors like you, we provide essential farming supplies and equipment, including bulls, tractors, crops, generators, and mills. These resources are vital in enabling our farmers to produce a variety of essential foods, thereby supporting their families and communities.</p>
+                        <p className="pera">In partnership with other Non-Governmental Organizations (NGOs) and local entities, we're bringing innovative solutions to the forefront of Tigray's agricultural sector. One such initiative is our investment in rainwater harvesting techniques. This approach allows farmers to cultivate their lands all year round, regardless of weather conditions, thus enabling them to grow fruits and vegetables continuously while protecting their crops against droughts, floods, and other weather-related adversities.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-10 mt-10">
+                  <div className="col-lg-10 mb-20">
+                    <div className="d-flex gap-20">
+                      <div className="info-icon">
+                        <i className="ri-hand-heart-line"></i>
+                      </div>
+                      <div className="info-content">
+                        <h4 className="title">Our Approach</h4>
+                        <p className="pera">Empowering the Farmers Inc. is dedicated to introducing modern farming techniques that enhance productivity without compromising the quality of produce. We believe in the power of education and provide training and support to farmers, helping them to adopt these new methods successfully. By doing so, we not only aid in immediate recovery efforts but also lay the groundwork for long-term sustainability and growth in the agricultural sector of Tigray.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-10 mb-20">
+                    <div className="d-flex gap-20">
+                      <div className="info-icon">
+                        <i className="ri-hand-heart-line"></i>
+                      </div>
+                      <div className="info-content">
+                        <h4 className="title">Join Our Mission</h4>
+                        <p className="pera">The journey towards rebuilding Tigray's agricultural strength is long, but with your support, we can make a lasting impact. Your donations empower us to continue our work, bringing hope and tangible help to the farmers and communities of Tigray. Together, we can create a future where agriculture is not just a means of survival but a thriving and prosperous sector that benefits everyone.
+
+Be a part of this transformative mission. With every donation, you're not just aiding in the recovery of a region; you're investing in its prosperous and sustainable future. Thank you for believing in our cause and for your continued support.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-10 mt-10" hidden={true}>
                     <a href="about.html" className="btn btn-primary-fill">
                       Read More
                     </a>
@@ -160,7 +184,15 @@ function AboutUs() {
             <div className="col-lg-5">
               <div className="position-relative h-100">
                 <div>
-                  <img className="w-100 d-none d-lg-block" src="/src/assets/images/gallery/about-3.png" alt="image" />
+                  <img className="w-100 d-none d-lg-block" src="/src/assets/images/gallery/tigraydisaster-01.png" alt="image" />
+                </div>
+                <p> </p>
+                <div>
+                  <img className="w-100 d-none d-lg-block" src="/src/assets/images/gallery/PHOTO-2024-03-26-07-58-16_10.jpg" alt="image" />
+                </div>
+                <p> </p>
+                <div>
+                  <img className="w-100 d-none d-lg-block" src="/src/assets/images/gallery/PHOTO-2024-03-26-07-58-16_8.jpg" alt="image" />
                 </div>
               </div>
             </div>
