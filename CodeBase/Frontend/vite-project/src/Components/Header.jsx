@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ProjectCollection from "../Pages/ProjectCollection";
 
 function Header() {
   return (
@@ -46,7 +47,7 @@ function Header() {
                         </NavLink>
                       </li>
                       <li className="single-list">
-                        <NavLink to="/project" className="single">
+                        <NavLink to="/ProjectCollection" className="single">
                           Project
                         </NavLink>
                       </li>
