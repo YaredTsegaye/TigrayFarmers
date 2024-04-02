@@ -12,11 +12,30 @@ const blogs = [
     subtitle: "We understand that there are many people organization The seeking support,",
     detailLink: "blog-details.html",
   },
+  {
+    imageUrl: "./src/assets/images/gallery/blog-4.png",
+    author: "admin",
+    category: "Donation",
+    date: "30 Jun\n2023",
+    title: "Donate Your Money For Africa Poor Child.",
+    subtitle: "We understand that there are many people organization The seeking support,",
+    detailLink: "blog-details.html",
+  },
+  {
+    imageUrl: "./src/assets/images/gallery/blog-4.png",
+    author: "admin",
+    category: "Donation",
+    date: "30 Jun\n2023",
+    title: "Donate Your Money For Africa Poor Child.",
+    subtitle: "We understand that there are many people organization The seeking support,",
+    detailLink: "blog-details.html",
+  },
+  
   // Include other blog entries here
 ];
 
 const BlogCollection = () => (
-  <div className="blog-section-two section-padding2" hidden={true}>
+  <div className="blog-section-two section-padding2" hidden={false}>
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-xl-7">

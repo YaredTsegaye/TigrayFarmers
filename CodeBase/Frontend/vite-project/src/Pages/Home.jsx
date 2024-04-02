@@ -1,15 +1,15 @@
 import React from "react";
 import DonationsCollection from "./DonationCollection";
-import HelpfulAreaCollection from './HelpfulAreaCollection';
-import TestimonialCollection from './TestimonialCollection';
-import BlogCollection from './BlogCollection';
-import Hero from './Hero';
+import HelpfulAreaCollection from "./HelpfulAreaCollection";
+import TestimonialCollection from "./TestimonialCollection";
+import BlogCollection from "./BlogCollection";
+import Hero from "./Hero";
 
 function Home() {
   return (
     <>
       {/* Hero area S t a r t*/}
-      <Hero 
+      <Hero
         titleKey="Help Tigrayan Farmers Rebuild Their Lives"
         titleMain="Sow Seeds of Hope: Rebuild Tigray Together!"
         description="Join us in nurturing the future of Tigray—donate now to help our farmers flourish anew"
@@ -34,7 +34,6 @@ function Home() {
       {/* Blog S t a r t */}
       <BlogCollection />
       {/* End-of Blog */}
-
     </>
   );
 }
