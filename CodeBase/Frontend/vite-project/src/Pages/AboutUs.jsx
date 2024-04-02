@@ -1,25 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useBreadcrumb } from "./BreadcrumbContext";
 import HelpfulAreaCollection from "./HelpfulAreaCollection";
-import Breadcrumb from './Breadcrumb';
 import DonationsCollection from "./DonationCollection";
-import TeamCollection from './TeamCollection';
-import AboutUsContent from './AboutUsContent';
+import TeamCollection from "./TeamCollection";
+import AboutUsContent from "./AboutUsContent";
 
 function AboutUs() {
-  const breadcrumbPath = [
-    { label: "Home", href: "/" },
-    // You can add more path items if necessary
-  ];
-    // The current page title
-    const currentPage = "About Us";
+  const { setBreadcrumbs } = useBreadcrumb();
+
+  useEffect(() => {
+    // Set the breadcrumb path for the DonationCollection page and make it visible
+    setBreadcrumbs({
+      items: [
+        { label: "Home", href: "/" },
+        { label: "About Us", href: "/AboutUs" },
+      ],
+      isVisible: true,
+    });
+  }, [setBreadcrumbs]);
+
   return (
     <>
-      {/* Breadcrumb Area S t a r t */}
-      <section className="breadcrumb-section breadcrumb-bg">
-         {/* Use the Breadcrumb component and pass the props */}
-      <Breadcrumb pathItems={breadcrumbPath} currentPage={currentPage} />
-      </section>
-      {/* End-of Breadcrumb Area */}
       {/* About us Area S t a r t */}
       <section className="about-area">
         <AboutUsContent />
@@ -28,7 +29,7 @@ function AboutUs() {
 
       {/* helpful area S t a r t*/}
       <section className="helpful-area-three section-padding">
-       <HelpfulAreaCollection />
+        <HelpfulAreaCollection />
       </section>
       {/* End-of helpful*/}
 

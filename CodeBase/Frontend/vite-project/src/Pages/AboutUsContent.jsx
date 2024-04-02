@@ -15,7 +15,6 @@ const AboutUsContent = () => {
           <div className="col-lg-6 my-auto">
             <div className="section-tittle mb-35">
               <span className="sub-tittle text-capitalize font-600">
-                About us
               </span>
               <h2 className="title font-700 pb-15">
                 Empowering the Farmers Inc

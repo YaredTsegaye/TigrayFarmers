@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'; // Import Routes instead of Switch
 import "./App.css";
 import Home from "./Pages/Home.jsx";
 import AboutUs from "./Pages/AboutUs.jsx";
@@ -8,12 +8,13 @@ import Blog from "./Pages/BlogCollection.jsx";
 import ContactUs from "./Pages/ContactUs.jsx";
 import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
+import { BreadcrumbProvider } from './Pages/BreadcrumbContext.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BreadcrumbProvider>
       <Header />
-      <Routes>
+      <Routes> {/* Use Routes instead of Switch */}
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/ProjectCollection" element={<Project />} />
@@ -23,7 +24,7 @@ function App() {
         <Route path="*" element={<h2>404 Page Not Found</h2>} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </BreadcrumbProvider>
   );
 }
 

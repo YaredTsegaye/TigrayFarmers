@@ -1,8 +1,7 @@
 // ProjectCollection.jsx
-import React from "react";
+import React, {useEffect} from "react";
+import { useBreadcrumb } from './BreadcrumbContext';
 import ProjectCard from "./ProjectCard";
-import Breadcrumb from "./Breadcrumb";
-import ProjectDetail from "./ProjectDetail";
 
 const projectsData = [
   {
@@ -63,20 +62,21 @@ const projectsData = [
   },
 ];
 function ProjectCollection() {
-  const breadcrumbPath = [
-    { label: "Home", href: "/" },
-    // You can add more path items if necessary
-  ];
-  // The current page title
-  const currentPage = "Projects";
+  const { setBreadcrumbs } = useBreadcrumb();
+
+  useEffect(() => {
+    // Set the breadcrumb path for the DonationCollection page and make it visible
+    setBreadcrumbs({
+      items: [
+        { label: "Home", href: "/" },
+        { label: "Projects", href: "/ProjectCollection" }
+      ],
+      isVisible: true
+    });
+  }, [setBreadcrumbs]);
   return (
     <>
-      {/* Breadcrumb Area S t a r t */}
-      <section className="breadcrumb-section breadcrumb-bg">
-        {/* Use the Breadcrumb component and pass the props */}
-        <Breadcrumb pathItems={breadcrumbPath} currentPage={currentPage} />
-      </section>
-      {/* End-of Breadcrumb Area */}
+     
       <section className="donate-section top-bottom-padding">
         <div className="container">
           <div className="row gy-24">

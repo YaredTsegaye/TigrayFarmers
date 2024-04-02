@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DonationsCollection from "./DonationCollection";
-import HelpfulAreaCollection from "./HelpfulAreaCollection";
-import TestimonialCollection from "./TestimonialCollection";
-import BlogCollection from "./BlogCollection";
-import Hero from "./Hero";
+import HelpfulAreaCollection from './HelpfulAreaCollection';
+import TestimonialCollection from './TestimonialCollection';
+import BlogCollection from './BlogCollection';
+import Hero from './Hero';
+import { useBreadcrumb } from "./BreadcrumbContext";
 
 function Home() {
+  const { setBreadcrumbs } = useBreadcrumb();
+
+  useEffect(() => {
+    // Hide breadcrumb on the home page
+    setBreadcrumbs(prevState => ({ ...prevState, isVisible: false }));
+
+    // Optional: Reset breadcrumb visibility when leaving the home page
+    return () => setBreadcrumbs(prevState => ({ ...prevState, isVisible: true }));
+  }, [setBreadcrumbs]);
   return (
     <>
       {/* Hero area S t a r t*/}

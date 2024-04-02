@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ProjectCollection from "../Pages/ProjectCollection";
+import { useBreadcrumb } from '../Pages/BreadcrumbContext';
+import Breadcrumb from '../Pages/Breadcrumb';
 
 function Header() {
+  const { breadcrumbs } = useBreadcrumb();
   return (
     <div className="header-area">
       <div className="main-header header-sticky">
@@ -90,7 +92,9 @@ function Header() {
           </div>
         </div>
       </div>
+      {breadcrumbs.isVisible && <Breadcrumb pathItems={breadcrumbs.items} />}
     </div>
+
   );
 }
 

@@ -1,7 +1,7 @@
 // DonationsCollection.jsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import DonationComponent from './DonationComponent';
-import Breadcrumb from './Breadcrumb';
+import { useBreadcrumb } from './BreadcrumbContext';
 
 const donationsData = [
   {
@@ -35,19 +35,22 @@ const donationsData = [
 ];
 
 function DonationCollection() {
-  const breadcrumbPath = [
-    { label: "Home", href: "/" },
-  ];
-    // The current page title
-    const currentPage = "Donation";
+  const { setBreadcrumbs } = useBreadcrumb();
+
+  useEffect(() => {
+    // Set the breadcrumb path for the DonationCollection page and make it visible
+    setBreadcrumbs({
+      items: [
+        { label: "Home", href: "/" },
+        { label: "Donation", href: "/donation" }
+      ],
+      isVisible: true
+    });
+  }, [setBreadcrumbs]);
+
   return (
     <>
-    {/* Breadcrumb Area S t a r t */}
-    <section className="breadcrumb-section breadcrumb-bg">
-         {/* Use the Breadcrumb component and pass the props */}
-      <Breadcrumb pathItems={breadcrumbPath} currentPage={currentPage} />
-      </section>
-      {/* End-of Breadcrumb Area */}
+
   <div className="donate-section bottom-padding">
     <div className="container">
       <div className="row justify-content-center">
