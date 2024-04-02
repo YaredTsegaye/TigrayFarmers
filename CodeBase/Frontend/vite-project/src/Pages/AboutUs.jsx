@@ -1,9 +1,9 @@
-import React, {useEffect} from "react";
-import { useBreadcrumb } from './BreadcrumbContext';
+import React, { useEffect } from "react";
+import { useBreadcrumb } from "./BreadcrumbContext";
 import HelpfulAreaCollection from "./HelpfulAreaCollection";
 import DonationsCollection from "./DonationCollection";
-import TeamCollection from './TeamCollection';
-import AboutUsContent from './AboutUsContent';
+import TeamCollection from "./TeamCollection";
+import AboutUsContent from "./AboutUsContent";
 
 function AboutUs() {
   const { setBreadcrumbs } = useBreadcrumb();
@@ -13,15 +13,14 @@ function AboutUs() {
     setBreadcrumbs({
       items: [
         { label: "Home", href: "/" },
-        { label: "About Us", href: "/AboutUs" }
+        { label: "About Us", href: "/AboutUs" },
       ],
-      isVisible: true
+      isVisible: true,
     });
   }, [setBreadcrumbs]);
- 
+
   return (
     <>
-      
       {/* About us Area S t a r t */}
       <section className="about-area">
         <AboutUsContent />
@@ -30,7 +29,7 @@ function AboutUs() {
 
       {/* helpful area S t a r t*/}
       <section className="helpful-area-three section-padding">
-       <HelpfulAreaCollection />
+        <HelpfulAreaCollection />
       </section>
       {/* End-of helpful*/}
 

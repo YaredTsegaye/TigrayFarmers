@@ -1,24 +1,23 @@
-import React, {useEffect} from "react";
-import { useBreadcrumb } from './BreadcrumbContext';
+import React, { useEffect } from "react";
+import { useBreadcrumb } from "./BreadcrumbContext";
 import ContactUsContent from "./ContactUsContent";
 
 function ContactUs() {
   const { setBreadcrumbs } = useBreadcrumb();
 
   useEffect(() => {
-    // Set the breadcrumb path for the BlogCollection page and make it visible
+    // Set the breadcrumb path for the DonationCollection page and make it visible
     setBreadcrumbs({
       items: [
         { label: "Home", href: "/" },
-        { label: "Contact Us", href: "/ContactUs" }
+        { label: "Contact Us", href: "/ContactUs" },
       ],
-      isVisible: true
+      isVisible: true,
     });
   }, [setBreadcrumbs]);
-  // The current page title
+
   return (
     <>
-
       {/* Contact area S t a r t*/}
       <section className="volunteer-details top-bottom-padding2">
         <ContactUsContent />

@@ -31,6 +31,7 @@ const donationsData = [
     raisedAmount: "$15.000",
     donationLink: "donation-details.html"
   },
+  
 ];
 
 function DonationCollection() {
