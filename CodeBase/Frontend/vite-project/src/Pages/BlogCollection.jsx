@@ -1,5 +1,6 @@
 // BlogCollection.jsx
-import React from 'react';
+import React, {useEffect} from "react";
+import { useBreadcrumb } from './BreadcrumbContext';
 import BlogDetail from './BlogDetail';
 
 const blogs = [
@@ -35,7 +36,7 @@ const blogs = [
 ];
 
 const BlogCollection = () => (
-  <div className="blog-section-two section-padding2" hidden={false}>
+  <div className="blog-section-two section-padding2" hidden={true}>
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-xl-7">
