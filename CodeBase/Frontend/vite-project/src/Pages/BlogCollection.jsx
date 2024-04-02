@@ -24,14 +24,14 @@ function BlogCollection() {
     setBreadcrumbs({
       items: [
         { label: "Home", href: "/" },
-        { label: "Blog", href: "/BlogCollection" }
+        { label: "Blog", href: "/Blog" }
       ],
       isVisible: true
     });
   }, [setBreadcrumbs]);
   return (
     <>
-      <div className="blog-section-two section-padding2" hidden={true}>
+      <div className="blog-section-two section-padding2" hidden={false}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7">
