@@ -5,15 +5,17 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    Id: 1,
     imageUrl: "./src/assets/images/gallery/donate-1.png",
     category: "Food",
     title: "Empower Rural Farmers",
     description: "Supporting food security and sustainable farming practices.",
     goal: 20000,
     raised: 5000,
-    link: "project-details.html",
+    link: "ProjectDetail/1",
   },
   {
+    Id: 2,
     imageUrl: "./src/assets/images/gallery/donate-2.png",
     category: "Education",
     title: "Build Schools in Rural Areas",
@@ -24,6 +26,7 @@ const projectsData = [
     link: "project-details.html",
   },
   {
+    Id: 3,
     imageUrl: "./src/assets/images/gallery/donate-3.png",
     category: "Medical",
     title: "Mobile Health Clinics",
@@ -34,6 +37,7 @@ const projectsData = [
     link: "project-details.html",
   },
   {
+    Id: 4,
     imageUrl: "./src/assets/images/gallery/donate-6.png",
     category: "Water",
     title: "Clean Water for Everyone",
@@ -43,6 +47,7 @@ const projectsData = [
     link: "project-details.html",
   },
   {
+    Id: 5,
     imageUrl: "./src/assets/images/gallery/donate-7.png",
     category: "Shelter",
     title: "Emergency Shelter Aid",
@@ -52,6 +57,7 @@ const projectsData = [
     link: "project-details.html",
   },
   {
+    Id: 6,
     imageUrl: "./src/assets/images/gallery/donate-8.png",
     category: "Agriculture",
     title: "Sustainable Farming Initiatives",
@@ -81,7 +87,7 @@ function ProjectCollection() {
         <div className="container">
           <div className="row gy-24">
             {projectsData.map((project, index) => (
-              <ProjectCard key={index} {...project} />
+               <ProjectCard key={index} project={project} />
             ))}
           </div>
         </div>

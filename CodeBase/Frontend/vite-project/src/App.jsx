@@ -9,6 +9,8 @@ import ContactUs from "./Pages/ContactUs.jsx";
 import Header from "./Components/Header.jsx";
 import Footer from "./Components/Footer.jsx";
 import { BreadcrumbProvider } from './Pages/BreadcrumbContext.jsx';
+import ErrorBoundary from './Pages/ErrorBoundary.jsx'; // Import ErrorBoundary
+import ProjectDetail from './Pages/ProjectDetail.jsx'; // Import ProjectDetail
 
 function App() {
   return (
@@ -22,6 +24,11 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<h2>404 Page Not Found</h2>} />
+        <Route path="/ProjectDetail/:Id" element={
+          <ErrorBoundary>
+            <ProjectDetail />
+          </ErrorBoundary>
+        } />
       </Routes>
       <Footer />
     </BreadcrumbProvider>
