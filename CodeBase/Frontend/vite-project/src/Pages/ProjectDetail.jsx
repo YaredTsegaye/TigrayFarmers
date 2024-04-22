@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useParams, useLocation } from 'react-router-dom';
 
 function ProjectDetail() {
@@ -9,6 +9,7 @@ function ProjectDetail() {
     //print project details
     console.log(project.title);
     // useParams is not used here since we are not fetching data but leaving it in case you need the ID for something else
+    //this will be used after we implement the backend
     const { Id } = useParams(); 
 
     // If project data is not available, you might want to handle it - either redirect the user, fetch data, or display a message
@@ -31,7 +32,7 @@ function ProjectDetail() {
                   </a>
                   <div className="donate-img-overlay"></div>
                 </div>
-                <div className="donate-info">
+                <div className="donate-info" hidden={true}>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="donate-info-title">
                       <h4 className="title text-capitalize">{project.title}</h4>

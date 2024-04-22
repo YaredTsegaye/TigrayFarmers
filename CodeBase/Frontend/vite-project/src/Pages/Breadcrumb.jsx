@@ -1,5 +1,5 @@
 // Breadcrumb.jsx
-import React from 'react';
+import PropTypes from 'prop-types';
 
 const Breadcrumb = ({ pathItems, currentPage }) => (
   <section className="breadcrumb-section breadcrumb-bg">
@@ -26,5 +26,15 @@ const Breadcrumb = ({ pathItems, currentPage }) => (
     </div>
   </section>
 );
+
+Breadcrumb.propTypes = {
+  pathItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired
+    })
+  ).isRequired,
+  currentPage: PropTypes.node.isRequired
+};
 
 export default Breadcrumb;

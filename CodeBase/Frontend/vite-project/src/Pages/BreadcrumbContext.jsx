@@ -1,5 +1,6 @@
 // BreadcrumbContext.js
 import React, { createContext, useContext, useState } from 'react';
+import PropTypes from 'prop-types';
 
 const BreadcrumbContext = createContext();
 
@@ -13,4 +14,8 @@ export const BreadcrumbProvider = ({ children }) => {
       {children}
     </BreadcrumbContext.Provider>
   );
+};
+
+BreadcrumbProvider.propTypes = {
+  children: PropTypes.node.isRequired
 };

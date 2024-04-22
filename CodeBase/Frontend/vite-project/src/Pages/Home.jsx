@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import DonationsCollection from "./DonationCollection";
 import HelpfulAreaCollection from './HelpfulAreaCollection';
+import ProjectCollection from './ProjectCollection';
 import TestimonialCollection from './TestimonialCollection';
 import BlogCollection from './BlogCollection';
 import Hero from './Hero';
@@ -23,7 +24,7 @@ function Home() {
         titleKey="Help Tigrayan Farmers Rebuild Their Lives"
         titleMain="Sow Seeds of Hope: Rebuild Tigray Together!"
         description="Join us in nurturing the future of Tigray—donate now to help our farmers flourish anew"
-        donateLink="donation.html"
+        donateLink="/donation"
         volunteerLink="volunteer.html"
         heroImage="./src/assets/images/hero/farmer.png"
       />
@@ -34,7 +35,7 @@ function Home() {
       {/* End-of helpful*/}
 
       {/* Donate S t a r t */}
-      <DonationsCollection />
+      <ProjectCollection />
       {/* End-of Donate */}
 
       {/* Testimonial S t a r t*/}
@@ -42,7 +43,7 @@ function Home() {
       {/* End-of Testimonial */}
 
       {/* Blog S t a r t */}
-      <BlogCollection />
+      {/*<BlogCollection /> */}
       {/* End-of Blog */}
     </>
   );

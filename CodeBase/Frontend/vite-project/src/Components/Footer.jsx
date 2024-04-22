@@ -21,27 +21,27 @@ function Footer() {
                 <nav>
                   <ul className="listing" id="navigation2">
                     <li className="single-list">
-                      <NavLink to="index.html" className="single">
+                      <NavLink to="/" className="single">
                         Home
                       </NavLink>
                     </li>
                     <li className="single-list">
-                      <NavLink to="donation.html" className="single">
+                      <NavLink to="/donation" className="single">
                         Donation
                       </NavLink>
                     </li>
                     <li className="single-list">
-                      <NavLink to="about.html" className="single">
+                      <NavLink to="/aboutus" className="single">
                         About
                       </NavLink>
                     </li>
                     <li className="single-list">
-                      <NavLink to="blog.html" className="single">
+                      <NavLink to="/blog" className="single">
                         Blog
                       </NavLink>
                     </li>
                     <li className="single-list">
-                      <NavLink to="contact-us.html" className="single">
+                      <NavLink to="/contactus" className="single">
                         Contact Us
                       </NavLink>
                     </li>

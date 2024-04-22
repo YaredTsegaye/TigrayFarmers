@@ -7,9 +7,9 @@ const projectsData = [
   {
     Id: 1,
     imageUrl: "./src/assets/images/gallery/donate-1.png",
-    category: "Food",
-    title: "Empower Rural Farmers",
-    description: "Supporting food security and sustainable farming practices.",
+    category: "Farming",
+    title: "Transforming Agriculture in Gulomakeda",
+    description: "In the heart of Gulomakeda, agriculture is not just a means of livelihood; it's a way of life. Yet, our farmers face challenges that threaten this vital lifeline—from water scarcity to outdated farming techniques. Our mission is to empower these resilient communities by introducing sustainable agricultural practices, enhancing productivity, and ensuring food security.",
     goal: 20000,
     raised: 5000,
     link: "ProjectDetail/1",
@@ -24,6 +24,34 @@ const projectsData = [
     goal: 30000,
     raised: 15000,
     link: "project-details.html",
+    projectCategory: "Farming",
+    relatedPost: [{
+      title: "How to Build a School in Rural Areas",
+      link: "blog-details.html",
+    }],
+    donors: [
+      {
+        name: "<NAME>",
+        image: "./src/assets/images/gallery/donate-1.png",
+        amount: 1000,
+      },
+      {
+        name: "<NAME>",
+        image: "./src/assets/images/gallery/donate-2.png",
+        amount: 1000,
+      },
+      {
+        name: "<NAME>",
+        image: "./src/assets/images/gallery/donate-3.png",
+        amount: 1000,
+      },
+    ],
+    tags: [
+      "Farming",
+      "Hunger",
+      "Water",
+      "Shelter"
+    ]
   },
   {
     Id: 3,

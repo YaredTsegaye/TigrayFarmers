@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { useBreadcrumb } from '../Pages/BreadcrumbContext';
 import Breadcrumb from '../Pages/Breadcrumb';
@@ -21,8 +20,8 @@ function Header() {
                   </div>
                   {/* Logo Mobile*/}
                   <div className="logo logo-mobile light-logo">
-                    <NavLink to="/">
-                      <img src="./src/assets/images/icon/favicon.png" alt="img" />
+                  <NavLink to="/">
+                      <img src="./src/assets/images/logo/logomain.png" alt="logo" />
                     </NavLink>
                   </div>
                 </div>
@@ -58,7 +57,7 @@ function Header() {
                           Donation
                         </NavLink>
                       </li>
-                      <li className="single-list">
+                      <li className="single-list" hidden={true}>
                         <NavLink to="/blog" className="single">
                           Blog
                         </NavLink>
@@ -75,10 +74,10 @@ function Header() {
                 <div className="header-right">
                   <div className="cart">
                     {/* search button */}
-                    <NavLink to="/" className="rounded-btn search-bar">
+                    <NavLink to="/" className="rounded-btn search-bar" hidden= {true}>
                       <i className="ri-search-line"></i>
                     </NavLink>
-                    <NavLink to="/login" className="btn-primary-fill pill-btn">
+                    <NavLink to="/login" className="btn-primary-fill pill-btn" hidden ={true}>
                       Log in
                     </NavLink>
                   </div>
@@ -92,7 +91,8 @@ function Header() {
           </div>
         </div>
       </div>
-      {breadcrumbs.isVisible && <Breadcrumb pathItems={breadcrumbs.items} />}
+      {breadcrumbs.isVisible && <Breadcrumb pathItems={breadcrumbs.items} currentPage={breadcrumbs.currentPage}  />}
+      
     </div>
 
   );

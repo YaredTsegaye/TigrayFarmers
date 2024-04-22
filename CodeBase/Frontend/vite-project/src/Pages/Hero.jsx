@@ -21,7 +21,7 @@ const Hero = ({ titleKey, titleMain, description, donateLink, volunteerLink, her
                 <a href={donateLink} className="btn-primary-fill hero-btn wow fadeInLeft" data-wow-delay="0.4s">
                   Donate Now
                 </a>
-                <a href={volunteerLink} className="btn-tertiary-fill hero-btn wow fadeInRight" data-wow-delay="0.4s">
+                <a href={volunteerLink} className="btn-tertiary-fill hero-btn wow fadeInRight" data-wow-delay="0.4s" hidden={true}>
                   Join Volunteers
                 </a>
               </div>
