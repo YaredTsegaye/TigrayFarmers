@@ -11,6 +11,7 @@ import Footer from "./Components/Footer.jsx";
 import { BreadcrumbProvider } from './Pages/BreadcrumbContext.jsx';
 import ErrorBoundary from './Pages/ErrorBoundary.jsx'; // Import ErrorBoundary
 import ProjectDetail from './Pages/ProjectDetail.jsx'; // Import ProjectDetail
+import TeamMemberDetail from './Pages/TeamMemberDetail.jsx'; // Import TeamMemberDetail
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/ProjectCollection" element={<Project />} />
+        <Route path="/team/:Id" element={<TeamMemberDetail  />} />
         <Route path="/donation" element={<DonationCollection />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contactus" element={<ContactUs />} />
